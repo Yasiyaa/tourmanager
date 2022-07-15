@@ -25,17 +25,17 @@
 
     include '../../config/dbConfig.php';
 
-    $query = "insert into tourinfo values ('$tid','$tname','$pr')";
+    $query = "INSERT INTO `booking` ( `destination`, `location`, `checkInDate`, `checkOutDate`, `duration`, `memberCount`) VALUES ( '$destination', '$location', '$checkInDate', '$checkOutDate', '$duration', '$membersCount');";
     $status = $link->query($query);
 
     if ($status) {
-        echo `    <script>
+        echo "<script>
         Swal.fire(
             'Good job!',
             'You clicked the button!',
             'success'
         )
-    </script>`;
+    </script>";
     } else {
         echo "<br><br>Error-Insert record";
     }
