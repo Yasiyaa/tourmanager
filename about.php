@@ -61,6 +61,7 @@
 	</head>
 
 	<body>
+	
 		<!--[if lte IE 9]>
 		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
 			your browser</a> to improve your experience and security.</p>
@@ -68,9 +69,11 @@
 
 		<!-- main-menu Start -->
 		<header class="top-area">
+		
 			<div class="header-area">
 				<div class="container">
 					<div class="row">
+					
 						<div class="col-sm-2">
 							<div class="logo">
 								<a href="index.php">
@@ -78,8 +81,10 @@
 								</a>
 							</div><!-- /.logo-->
 						</div><!-- /.col-->
+						
 						<div class="col-sm-10">
 							<div class="main-menu">
+							
 							
 								<!-- Brand and toggle get grouped for better mobile display -->
 								<div class="navbar-header">
@@ -93,8 +98,8 @@
 										<li class="smooth-menu"><a href="#pack">Packages </a></li>
 										<!-- <li class="smooth-menu"><a href="#spo">Manage shedule</a></li> -->
 										<li class="smooth-menu"><a href="#footer">About us</a></li>
-										<li  class="smooth-menu">
-											<a class="book-btn" href = "./user/login">book now
+										<li> 
+											<a class="book-btn" href = "./user/login.php">book now
 										</a>
 										</li><!--/.project-btn--> 
 									</ul>
@@ -110,7 +115,8 @@
 		<!-- main-menu End -->
 
 	
-
+		<img src="./assets/images/home/banner.jpg" alt="home">
+		
 
 
 

@@ -130,10 +130,10 @@
 
                 <div class="container">
 
-                    <form class="row g-3">
+                    <form class="row g-3" action="./controllers/booknow-controller.php" method="POST" id="detailsForm">
                         <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Destination</label>
-                            <select class="form-control ">
+                            <select class="form-control" name="destination" id="destination">
 
                                 <option value="default">enter your destination country</option><!-- /.option-->
 
@@ -146,7 +146,7 @@
                         </div>
                         <div class="col-md-6">
                             <label for="inputPassword4" class="form-label">Location</label>
-                            <select class="form-control ">
+                            <select class="form-control " name="location" id="location">
 
                                 <option value="default">enter your destination location</option><!-- /.option-->
 
@@ -159,24 +159,24 @@
                         </div>
                         <div class="col-4">
                             <label for="inputAddress" class="form-label">Check in date</label>
-                            <input type="date" class="form-control" id="inputAddress">
+                            <input type="date" class="form-control" id="checkInDate" name="checkInDate">
                         </div>
                         <div class="col-4">
                             <label for="inputAddress2" class="form-label">Check out date</label>
-                            <input type="date" class="form-control" id="inputAddress2">
+                            <input type="date" class="form-control" id="checkOutDate" name="checkOutDate">
                         </div>
                         <div class="col-md-3">
                             <label for="inputCity" class="form-label">Duration</label>
-                            <input type="number" class="form-control" id="inputCity">
+                            <input type="number" class="form-control" id="duration" name="duration">
                         </div>
                         <div class="col-md-4">
                             <label for="inputState" class="form-label">Members</label>
-                            <input type="number" class="form-control" id="inputCity">
+                            <input type="number" class="form-control" id="members" name="membersCount">
                         </div>
-                      
-                       
+
+
                         <div class="col-12">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="button" onclick="submitForm()" class="btn btn-primary">Submit</button>
                         </div>
                     </form>
 
@@ -204,6 +204,14 @@
     <script src="assets/demo/chart-bar-demo.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
     <script src="js/datatables-simple-demo.js"></script>
+    <script>
+        function submitForm(){
+
+            const form  = document.getElementById('detailsForm');
+            form.submit();
+            
+        }
+    </script>
 </body>
 
 </html>
