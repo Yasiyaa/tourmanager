@@ -70,7 +70,7 @@
 		<!-- main-menu Start -->
 		<header class="top-area">
 		
-			<div class="header-area navbar-inverse">
+			<div class="header-area">
 				<div class="container">
 					<div class="row">
 					
@@ -83,11 +83,11 @@
 						</div><!-- /.col-->
 						
 						<div class="col-sm-10">
-							<div class="main-menu ">
+							<div class="main-menu">
 							
 							
 								<!-- Brand and toggle get grouped for better mobile display -->
-								<div class="navbar-header ">
+								<div class="navbar-header">
 									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 										<i class="fa fa-bars"></i>
 									</button><!-- / button-->
@@ -115,21 +115,22 @@
 		<!-- main-menu End -->
 
 	
-		<img src="./assets/images/home/banner.jpg" alt="home" class="abtUsHero">
+		<img src="./assets/images/home/banner.jpg" alt="home">
 		
 
 
 
 		<!-- testemonial Start -->
 		<section   class="testemonial">
-			<div class="container team-cont">
-				
+			<div class="container">
 
 				<div class="gallary-header text-center">
 					<h2>
 						Our team
 					</h2>
-
+					<p>
+						Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla. 
+					</p>
 
 				</div><!--/.gallery-header-->
 
@@ -138,151 +139,8 @@
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
-								<img src="./team/yasith.jpeg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								
-								<p class="firstLetterCapital">login form php <br>
-									front end tuneup<br>
-									book now form php<br>
-									view datatable php</p>								
-								<h3>
-									<a href="#">
-										Yasith
-									</a>
-								</h3>
-								<h4>DCSD 21</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="./team/ayon.jpeg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p class="firstLetterCapital">
-									<span style="color: white;">.</span><br>Login Form Validations<br>resgiter validations<br><span style="color: white;">.</span>
-								</p>
-								<h3>
-									<a href="#">
-										Ayon
-									</a>
-								</h3>
-								<h4>DCSD 21</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="./team/sharanga.jpeg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p class="firstLetterCapital">
-									<span style="color: white;">.</span><br>register form php<br>forgot password php<br><span<span style="color: white;"></span>>.</span>
-								</p>
-								<h3>
-									<a href="#">
-										Sharanga
-									</a>
-								</h3>
-								<h4>DCSD 21</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="./team/ruchira.jpeg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p class="firstLetterCapital">
-									<span style="color: white;">.</span><br>edit home page package content
-									<br>add home page top destionations  to book now form
-								</p>
-								
-								<h3>
-									<a href="#">
-										Ruchira
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="./team/janidu.jpeg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p class="firstLetterCapital">
-									<span style="color: white;">.</span><br>destination page create<br>add content<br><span style="color: white;">.</span>
-								</p>
-								
-								<h3>
-									<a href="#">
-										Janindu
-									</a>
-								</h3>
-								<h4>DCSD 21</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="./team/yuwi.jpeg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p class="firstLetterCapital">
-								<span style="color: white;">.</span><br>about us page content<br>update bookings<br><span style="color: white;">.</span>
-							</p>
-								<h3>
-									<a href="#">
-										Yuwani
-									</a>
-								</h3>
-								<h4>DCSD 21</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<!-- <div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
 								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
-							</div>
+							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -296,16 +154,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div>
-						</div>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
 
-					</div>
+					</div><!--/.item-->
 
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="assets/images/client/testimonial2.jpg" alt="img"/>
-							</div>
+							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -319,16 +177,16 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div>
-						</div>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
 
-					</div>
+					</div><!--/.item-->
 
 					<div class="home1-testm item">
 						<div class="home1-testm-single text-center">
 							<div class="home1-testm-img">
 								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
-							</div>
+							</div><!--/.home1-testm-img-->
 							<div class="home1-testm-txt">
 								<span class="icon section-icon">
 									<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -342,10 +200,148 @@
 									</a>
 								</h3>
 								<h4>london, england</h4>
-							</div>
-						</div>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
 
-					</div> -->
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial2.jpg" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial2.jpg" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+								</p>
+								<h3>
+									<a href="#">
+										kevin watson
+									</a>
+								</h3>
+								<h4>london, england</h4>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
 
 				</div><!--/.testemonial-carousel-->
 			</div><!--/.container-->
@@ -409,10 +405,10 @@
 							<div class="single-footer-item text-center">
 								<h2 class="text-left">contacts</h2>
 								<div class="single-footer-txt text-left">
-									<p>0777123456</p>
-									<p class="foot-email"><a href="#">info@dontchooseus.com</a></p>
-									<p>123/4, Main Road,</p>
-									<p>Sri Lanka</p>
+									<p>+1 (300) 1234 6543</p>
+									<p class="foot-email"><a href="#">info@tnest.com</a></p>
+									<p>North Warnner Park 336/A</p>
+									<p>Newyork, USA</p>
 								</div><!--/.single-footer-txt-->
 							</div><!--/.single-footer-item-->
 						</div><!--/.col-->
@@ -427,7 +423,7 @@
 		                <li><a href="#" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>
 		                <li><a href="#" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>
 		        	</ul>
-		        	<p>&copy; 2022 <a href="#">DCSD 21</a>. All Right Reserved</p>
+		        	<p>&copy; 2017 <a href="https://www.themesine.com">ThemeSINE</a>. All Right Reserved</p>
 
 		        </div><!--/.foot-icons-->
 				<div id="scroll-Top">

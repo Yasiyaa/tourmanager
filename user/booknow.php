@@ -51,7 +51,7 @@
                             <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                             Dashboard
                         </a>
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="booknow.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-clock"></i></div>
                             Book now
                         </a>
@@ -135,7 +135,7 @@
                             <label for="inputEmail4" class="form-label">Destination</label>
                             <select class="form-control" name="destination" id="destination">
 
-                                <option value="default">enter your destination country</option><!-- /.option-->
+                                <option value="0">enter your destination country</option><!-- /.option-->
 
                                 <option value="turkey">turkey</option><!-- /.option-->
 
@@ -148,7 +148,7 @@
                             <label for="inputPassword4" class="form-label">Location</label>
                             <select class="form-control " name="location" id="location">
 
-                                <option value="default">enter your destination location</option><!-- /.option-->
+                                <option value="0">enter your destination location</option><!-- /.option-->
 
                                 <option value="istambul">istambul</option><!-- /.option-->
 
@@ -159,19 +159,19 @@
                         </div>
                         <div class="col-4">
                             <label for="inputAddress" class="form-label">Check in date</label>
-                            <input type="date" class="form-control" id="checkInDate" name="checkInDate">
+                            <input type="date" class="form-control" id="checkInDate" name="checkInDate" value="">
                         </div>
                         <div class="col-4">
                             <label for="inputAddress2" class="form-label">Check out date</label>
-                            <input type="date" class="form-control" id="checkOutDate" name="checkOutDate">
+                            <input type="date" class="form-control" id="checkOutDate" name="checkOutDate"  value="">
                         </div>
                         <div class="col-md-3">
                             <label for="inputCity" class="form-label">Duration</label>
-                            <input type="number" class="form-control" id="duration" name="duration">
+                            <input type="number" class="form-control" id="duration" name="duration" min = "1" max = "30" value="">
                         </div>
                         <div class="col-md-4">
                             <label for="inputState" class="form-label">Members</label>
-                            <input type="number" class="form-control" id="members" name="membersCount">
+                            <input type="number" class="form-control" id="members" name="membersCount" min = "1" max = "10" value="">
                         </div>
 
 
@@ -205,11 +205,44 @@
     <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
     <script src="js/datatables-simple-demo.js"></script>
     <script>
-        function submitForm(){
+        function submitForm() {
 
-            const form  = document.getElementById('detailsForm');
-            form.submit();
+            const form = document.getElementById('detailsForm');
+            var destination = document.getElementById('destination').value;
+            var location = document.getElementById('location').value;
+            var checkInDate = document.getElementById('checkInDate').value;
+            var checkOutDate = document.getElementById('checkOutDate').value;
+            var duration = document.getElementById('duration').value;
+            var members = document.getElementById('members').value;
             
+            if (destination==0) {
+                alert("Enter your destination country");
+
+            }
+            else if(location==0){
+                alert("Enter your destination location");
+            }
+            else if(checkInDate==''){
+                alert("Enter check in date");
+            }
+            else if(checkOutDate==''){
+                alert("Enter check out date");
+               
+            }
+            else if(duration==''){
+                alert("Enter your staying duration");
+                
+            }
+            else if(members==''){
+                alert("Enter how many members you have in your tour ");
+            }
+            
+
+             else {
+                form.submit();
+            }
+
+
         }
     </script>
 </body>

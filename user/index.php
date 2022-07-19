@@ -56,7 +56,7 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-book"></i></div>
                                 Bookings
                             </a>
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="destinations.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-mountain"></i></div>
                                 Destinations
                             </a>

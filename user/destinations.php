@@ -11,8 +11,6 @@
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body class="sb-nav-fixed">
@@ -58,11 +56,11 @@
                             Book now
                         </a>
 
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="booking.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-book"></i></div>
                             Bookings
                         </a>
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="destinations.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-mountain"></i></div>
                             Destinations
                         </a>
@@ -130,79 +128,54 @@
         <div id="layoutSidenav_content">
             <main>
 
-
-                <?php
-                if (isset($_GET["status"]) && $_GET["status"] == 1 ) {
-                    echo "<script>
-                    Swal.fire(
-                        'Booking removed successfully!',
-                        'sucess!',
-                        'success'
-                    )
-                </script>";
-                }
-                ?>
-
-
                 <div class="container">
                     <div class="card mb-4">
                         <div class="card-header">
                             <i class="fas fa-table me-1"></i>
-                            Manage tours
+                            Destinations list
                         </div>
                         <div class="card-body">
                             <table id="datatablesSimple">
                                 <thead>
                                     <tr>
                                         <th>tour id</th>
-                                        <th>destination</th>
-                                        <th>location</th>
-                                        <th>check in date</th>
-                                        <th>check out date</th>
-                                        <th>duration</th>
-                                        <th>members</th>
-                                        <th>actions</th>
+                                        <th>destination country</th>
+                                        <th>tour type</th>
+                                        <th>place of visit</th>
+                                        <th>price</th>
                                     </tr>
                                 </thead>
-
+                               
                                 <tbody>
-
-                                    <?php
+                                <?php
                                     include '../config/dbConfig.php';
 
-                                    $query = "SELECT * FROM `booking`";
+                                    $query = "SELECT * FROM `destinations`";
                                     $result = $link->query($query);
                                     //$row = $result->fetch_array(MYSQLI_ASSOC);
 
-                                    //var_dump($row);
+                                    // var_dump($row);
 
 
                                     ?>
 
                                     <?php foreach ($result as $item) { ?>
                                         <tr>
-                                            <td><?php echo $item["id"];  ?></td>
-                                            <td><?php echo $item['destination']; ?></td>
-                                            <td><?php echo $item['location'];  ?></td>
-                                            <td><?php echo $item['checkInDate']; ?></td>
-                                            <td><?php echo $item['checkOutDate'];  ?></td>
-                                            <td><?php echo $item['duration'];  ?></td>
-                                            <td><?php echo $item['memberCount']; ?></td>
+                                            <td><?php echo $item["TourID"];  ?></td>
+                                            <td><?php echo $item['destination country']; ?></td>
+                                            <td><?php echo $item['type'];  ?></td>
+                                            <td><?php echo $item['place of visit']; ?></td>
+                                            <td><?php echo $item['price'];  ?></td>
 
-                                            <td>
-                                                <button class="btn btn-info"> <a href="./controllers/bookings-controller-update.php?id=<?php echo $item['id']; ?>"> <i class="fas fa-edit"></i> Edit </a></button>
-                                                <button class="btn btn-danger"> <a href="./controllers/bookings-controller-delete.php?id=<?php echo $item['id']; ?>"> <i class="fas fa-trash"></i> Delete</a></button>
-                                            </td>
                                         </tr>
 
                                     <?php } ?>
-
-
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
+
 
             </main>
             <footer class="py-4 bg-light mt-auto">
@@ -226,27 +199,6 @@
     <script src="assets/demo/chart-bar-demo.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
     <script src="js/datatables-simple-demo.js"></script>
-    <script>
-        // function confirmDelete(id) {
-        //     Swal.fire({
-        //         title: 'Are you sure?',
-        //         text: "You won't be able to revert this!",
-        //         icon: 'warning',
-        //         showCancelButton: true,
-        //         confirmButtonColor: '#3085d6',
-        //         cancelButtonColor: '#d33',
-        //         confirmButtonText: 'Yes, delete it!'
-        //     }).then((result) => {
-        //         if (result.isConfirmed) {
-        //             <?php
-                        //             header("Location: ./controllers/bookings-controller-delete.php?id=" echo  );
-                        //             
-                        ?>
-
-        //         }
-        //     })
-        // }
-    </script>
 </body>
 
 </html>
