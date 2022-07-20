@@ -37,6 +37,7 @@
                                     <h3 class="text-center font-weight-light my-4">Login</h3>
                                 </div>
                                 <div class="card-body">
+                                    
                                     <form action="controllers/login-controller.php" method="POST">
                                         <div class="form-floating mb-3">
                                             <input class="form-control" id="inputEmail" type="text" name="username" placeholder="name@example.com" />
@@ -51,7 +52,7 @@
                                             <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
                                         </div>
                                         <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                            <a class="small" href="password.html">Forgot Password?</a>
+                                           
                                             <button class="btn btn-primary" type="submit">Login</button>
                                         </div>
                                     </form>
