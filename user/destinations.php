@@ -95,11 +95,7 @@
 
                                     $query = "SELECT * FROM `destinations`";
                                     $result = $link->query($query);
-                                    //$row = $result->fetch_array(MYSQLI_ASSOC);
-
-                                    // var_dump($row);
-
-
+                                    
                                     ?>
 
                                     <?php foreach ($result as $item) { ?>

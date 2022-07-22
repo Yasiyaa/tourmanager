@@ -40,7 +40,7 @@
                                     
                                     <form action="controllers/login-controller.php" method="POST">
                                         <div class="form-floating mb-3">
-                                            <input class="form-control" id="inputEmail" type="text" name="username" placeholder="name@example.com" />
+                                            <input class="form-control" id="inputEmail" type="email" name="username" placeholder="name@example.com" />
                                             <label for="inputEmail">Email address</label>
                                         </div>
                                         <div class="form-floating mb-3">

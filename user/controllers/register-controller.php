@@ -17,7 +17,6 @@
     $password = $_POST["password"];
 
 
-
     include '../../config/dbConfig.php';
 
     $query = "INSERT INTO `users` (`username`, `password`) VALUES ('$email', '$password')";
@@ -36,10 +35,7 @@
     }
     $link->close();
 
-
     ?>
-
-
 
 </body>
 

@@ -32,7 +32,7 @@
         echo "<script>
         Swal.fire(
             'Good job!',
-            'You clicked the button!',
+            'Your tour has been sheduled!',
             'success'
         )
     </script>";

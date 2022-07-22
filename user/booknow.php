@@ -181,12 +181,10 @@
             else if(members==''){
                 alert("Enter how many members you have in your tour ");
             }
-            
 
              else {
                 form.submit();
             }
-
 
         }
     </script>
